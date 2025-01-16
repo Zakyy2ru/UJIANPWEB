@@ -1,0 +1,7 @@
+1. ekstrak folder lalu pindahkan ke dalam htdocs, lalu jalankan di vscode seperti biasa
+2. buat database di phpMyAdmin dengan nama wedding_db, lalu import file sql yang ada di folder Namanya wedding_db.sql
+3. jalanin nya yang folder public untuk sisi user/guest
+contoh : http://localhost/ujian/public/
+3a. guest memasukkan code RSVP agar bisa melakukan registrasi, masukkan code 654321. kode bisa di ubah sesuka hati
+
+

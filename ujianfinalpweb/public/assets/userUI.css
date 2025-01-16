@@ -1,0 +1,135 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  /* Menggunakan posisi absolut untuk menumpuk teks */
+  top: 50%;
+  /* Posisikan ke 40% dari atas */
+  left: 50%;
+  /* Posisikan ke 50% dari kiri */
+  transform: translate(-50%, -50%);
+  /* Menggeser teks kembali ke tengah */
+  text-align: center;
+  /* Memastikan semua teks terpusat */
+}
+
+.banner-text .button.openInvitation {
+  /* margin-top: 20px;
+    margin-left: 20px; */
+  margin: auto;
+  /* Menambah jarak antara teks dan tombol */
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bolder;
+  transition-duration: 300ms;
+}
+
+.banner-text .button.openInvitation:hover {
+  background-color: #fff;
+  color: #333;
+  font-weight: bolder;
+  /* transition: all 300ms ease-in-out; */
+}
+
+.title {
+  font-size: 2rem;
+  color: #ffa500;
+  margin: 0;
+}
+
+.names {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.location {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.date {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button i {
+  margin-left: 10px;
+}
+
+.animate-up {
+  animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* buat beranda */
+/* Animasi masuk */
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    /* Memulai dari bawah */
+    opacity: 0;
+    /* Memulai tidak terlihat */
+  }
+
+  to {
+    transform: translateY(0);
+    /* Muncul ke posisi normal */
+    opacity: 1;
+    /* Menjadi terlihat */
+  }
+}
+
+.animate-in {
+  animation: slideIn 0.5s forwards;
+  /* Menerapkan animasi slide-in */
+}
+
+/* beranda */

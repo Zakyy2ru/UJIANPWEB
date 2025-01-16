@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  /* section content */
+  .content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+
+  /* section content */
+  /* section couple n profile */
+  .groom-bride-section {
+    height: fit-content;
+  }
+
+  .groom-bride-section img {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .groom-bride-section .overlay .profile-wrap {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .groom-bride-section .overlay .profile-wrap .profile.and {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* section couple n profile */
+  /* INFORMATION */
+  .information-wrapping {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .information-wrapping article {
+    width: 50%;
+  }
+
+  /* INFORMATION */
+}

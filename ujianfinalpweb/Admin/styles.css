@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.list-tamu {}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.btn.edit {
+  background-color: #007bff;
+}
+
+.btn.edit:hover {
+  background-color: #0056b3;
+}
+
+.btn.delete {
+  background-color: #dc3545;
+}
+
+.btn.delete:hover {
+  background-color: #c82333;
+}
+
+.fbutton {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  gap: 10px;
+}
+
+.btn.green,
+.btn.back {
+  color: white;
+  background-color: #218838;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.btn.green {
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+.btn.green:hover,
+.btn.back:hover {
+  background-color: #5a6268;
+}
+
+.message {
+  text-align: center;
+  margin: 10px 0;
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
